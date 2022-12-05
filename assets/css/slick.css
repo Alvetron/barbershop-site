@@ -71,6 +71,10 @@
   min-height: 1px;
 }
 
+.slick-slide  > div {
+  width: 100%;
+}
+
 [dir=rtl] .slick-slide {
   float: right;
 }

@@ -1766,8 +1766,10 @@ fieldset {
 
   .reviews__inner {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
+    width: 100%;
     padding-left: 60px;
     padding-right: 60px;
     border: 1px solid #e5ddd5;
@@ -1816,10 +1818,6 @@ fieldset {
 
   .social__item:last-child {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
-  }
-
-  .social__link--vk {
-    background-size: auto 17px;
   }
 
   .social__link--fb {
